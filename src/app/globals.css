@@ -7,7 +7,10 @@
     @apply w-[100px];
   }
   li {
-    @apply text-slate-500;
+    @apply text-slate-500 hover:text-orange-500;
+  }
+  h3 {
+    @apply text-9xl;
   }
 }
 
@@ -16,6 +19,12 @@
     @apply bg-orange-500 rounded-full w-fit px-5 py-2 text-white;
   }
   .btn-secondary {
-    @apply border-2 border-orange-500 text-orange-500 font-semibold rounded-full w-fit px-5 py-1;
+    @apply border-2 border-orange-500 bg-white text-orange-500 font-semibold rounded-full w-fit px-5 py-1;
+  }
+  .category {
+    @apply bg-slate-200 w-fit px-3 py-1 rounded-full flex items-center gap-1;
+  }
+  .card {
+    @apply bg-gray-200 flex flex-col justify-center items-center w-[413px] h-[213px] rounded-2xl text-black font-medium;
   }
 }

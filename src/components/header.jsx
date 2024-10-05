@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="flex justify-between items-center  h-[80px] mx-20 font-semibold">
+    <div className="flex justify-between items-center  m-auto h-[80px] w-[90%] font-semibold">
       <div className="flex items-center gap-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
